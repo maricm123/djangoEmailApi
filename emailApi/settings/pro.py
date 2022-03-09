@@ -6,8 +6,13 @@ DEBUG = False
 ALLOWED_HOSTS = ['*']
 
 
+
+
 DATABASES = {
     'default': {
     
     }
 }
+
+
+

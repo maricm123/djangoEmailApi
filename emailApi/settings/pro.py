@@ -14,6 +14,8 @@ DATABASES = {
     }
 }
 
+ROOT_URLCONF = 'emailApi.urls'
+
 
 
 REST_FRAMEWORK = {

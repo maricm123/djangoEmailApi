@@ -3,7 +3,7 @@ from .base import *
 DEBUG = False
 
 # upisati domen od sajta
-ALLOWED_HOSTS = ['https://sanjamuskistudio.web.app/adminBojana']
+ALLOWED_HOSTS = ['*']
 
 
 CORS_ALLOWED_ORIGINS = [

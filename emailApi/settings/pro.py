@@ -3,10 +3,12 @@ from .base import *
 DEBUG = False
 
 # upisati domen od sajta
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['https://sanjamuskistudio.web.app/adminBojana']
 
 
-
+CORS_ALLOWED_ORIGINS = [
+    "https://sanjamuskistudio.web.app",
+]
 
 DATABASES = {
     'default': {

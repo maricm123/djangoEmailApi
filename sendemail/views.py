@@ -18,6 +18,6 @@ def api(request):
      subject=" Informacije o zakazanom terminu | SanjaM Studio "# The theme
      from_email='sanjamuskistudio@gmail.com'# Give a person
      to_email=receiver# The recipient
-     message=" Dobar dan {0}".format(name) + ". \n" + "Datum vaseg sisanja je {0}".format(datum) + " u {0}".format(sat) + ":{0}".format(minut) + ". Vas frizer je {0}".format(frizer) + ". \n" + "Za otkazivanje termina molimo Vas pozovite  +381691303083"
+     message="Dobar dan {0}".format(name) + ". \n\n" + "Datum vaseg sisanja je {0}".format(datum) + " u {0}".format(sat) + ":{0}".format(minut) + ". Vas frizer je {0}".format(frizer) + ". \n\n" + "Za otkazivanje termina molimo Vas pozovite  +381691303083."
      send_mail(subject,message,from_email,[to_email])# call mail Of send_mail Function to send mail
      return HttpResponse(' The mail was sent successfully ')

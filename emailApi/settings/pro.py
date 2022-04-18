@@ -8,6 +8,7 @@ ALLOWED_HOSTS = ['*']
 
 CORS_ALLOWED_ORIGINS = [
     "https://sanjamuskistudio.web.app",
+    "https://sanjammuskistudio.rs",
 ]
 
 DATABASES = {

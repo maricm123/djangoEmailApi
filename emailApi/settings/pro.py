@@ -35,6 +35,5 @@ REST_FRAMEWORK = {
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_HOST_USER = 'sanjamuskistudio@gmail.com'
-EMAIL_HOST_PASSWORD = 'toqhorrzaiimcnff'
-# EMAIL_HOST_PASSWORD = 'MARIC001'
+EMAIL_HOST_PASSWORD = 'gffcmlfcuevgywkg'
 EMAIL_USE_TLS = True
